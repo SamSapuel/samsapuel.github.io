@@ -8,18 +8,19 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel = "stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
         <title>Hi!</title>
     </head>
-
     <body>
         <header>
             <div class="container">
                 <img id="header_icon" src="res/header_icon.png" alt="iconushka">
                 <nav id="menu">
-                    <a href = "#about_me">1.About me</a>
-                    <a href = "">2.Experience</a>
-                    <a href = "">3.Projects</a>
-                    <a href = "">4.Contacts</a>
+                    <a href = "#about_me">1.About</a>
+                    <a href = "">2.Projects</a>
+                    <a href = "">3.Contacts</a>
                     <button id="resume">Resume</button>
                 </nav>
             </div>
@@ -33,7 +34,7 @@
                 <h1>
                     I build things for the backend.
                 </h1>
-                <br>
+                <br/>
                 <h4>
                     I’m a software engineering student,
                     who is focused on developing backend applications based on java/kotlin.
@@ -42,20 +43,14 @@
                 <button id="contact_me">Get in touch</button>
             </div>
             <div class="main_content">
-                <div class="border">
-                    <div id="border1"></div>
-                    <div id="border2"></div>
-                </div>
-
                 <img id = "shevanister" src="res/shevan.jpg">
             </div>
-
         </section>
         <section class="about_me">
             <div class="about_me_content">
-                <h1 id="about_me">1.About me</h1>
+                <h1 id="about_me_title">1.About me</h1>
                 <hr/>
-                <h2>Hello! My name is Dmitry, I'm from Kazakhstan and I love to create web applications.
+                <p>Hello! My name is Dmitry, I'm from Kazakhstan and I love to create web applications.
                     <br/>
                     <br/>At the moment I am studying at the <a href="https://www.cvut.cz/">Czech Technical University</a> in the 3rd year of software engineering.
                     <br/>
@@ -63,7 +58,7 @@
                     I've been freelancing for a while, tweaking the code, but now I'm looking for a job.
                     <br/>
                     <br/>Here are a few technologies I’ve been working with recently:
-                </h2>
+                </p>
                 <br/>
                 <ul>
                     <li>Java</li>
@@ -76,5 +71,86 @@
                 </ul>
             </div>
         </section>
+        <section class="projects">
+            <div class="container">
+                <h1 id="projects_title">2.Some Things I’ve Built</h1>
+                <hr/>
+            </div>
+            <div class = "projects_content">
+                <div class = "project">
+                    <h3>"Java Game"</h3>
+                    <img src="res/java_game.png" class="project_picture">
+                    <div class="text">
+                        <p>
+                            2-SH Engine je napsán pomoci jazyku programování Java 1.8. Níže budou uvedené knihovny použité při napsání enginu.
+                        </p>
+                        <a href="">More</a>
+                    </div>
+                </div>
+                <div class ="project">
+                    <h3>Project 2</h3>
+                    <img src="res/java_game.png" class="project_picture">
+                    <div class="text">
+                        <p>
+                            2-SH Engine je napsán pomoci jazyku programování Java 1.8. Níže budou uvedené knihovny použité při napsání enginu.
+                        </p>
+                        <a href="">More</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>Project 3</h3>
+                    <img src="res/android_app.png" class="project_picture">
+                    <div class="text">
+                        <p>
+                            2-SH Engine je napsán pomoci jazyku programování Java 1.8. Níže budou uvedené knihovny použité při napsání enginu.
+                        </p>
+                        <a href="">More</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>Project 4</h3>
+                    <img src="res/java_game.png" class="project_picture">
+                    <div class="text">
+                        <p>
+                            2-SH Engine je napsán pomoci jazyku programování Java 1.8. Níže budou uvedené knihovny použité při napsání enginu.
+                        </p>
+                        <a href="">More</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>Project 5</h3>
+                    <img src="res/java_game.png" class="project_picture">
+                    <div class="text">
+                        <p>
+                            2-SH Engine je napsán pomoci jazyku programování Java 1.8. Níže budou uvedené knihovny použité při napsání enginu.
+                        </p>
+                        <a href="">More</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>Project 6</h3>
+                    <img src="res/java_game.png" class="project_picture">
+                    <div class="text">
+                        <p>
+                            2-SH Engine je napsán pomoci jazyku programování Java 1.8. Níže budou uvedené knihovny použité při napsání enginu.
+                        </p>
+                        <a href="">More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="contacts_content">
+                <h1 id="contacts_title">3.What’s Next?</h1>
+                <hr/>
+                <p>
+                    Random text
+
+                </p>
+            </div>
+        </section>
+        <footer>
+            <p>Designed & Built by Dmitriy Shevchenko</p>
+        </footer>
     </body>
 </html>
