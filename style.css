@@ -278,15 +278,43 @@ a {
     margin-top: 4%;
 }
 
+#sis_picture {
+    width: 110%;
+}
+
+#karbyshevhelp_picture {
+    width: 120%;
+}
+
 .text p{
     text-align: start;
     margin-top: 5%;
     padding-left: 2%;
     color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.text .stack {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 50%);
+    margin-top: 5%;
+}
+
+.stack p {
+    margin-top: 1%;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px black;
 }
 
 .text a {
+    width: 8%;
+    margin-left: 40%;
+    color: white;
+}
 
+.text a:hover {
+    color: #64FFDA;
 }
 
 .contacts {
@@ -297,6 +325,10 @@ a {
     padding-top: 5%;
     padding-bottom: 5%;
     background: rgba(0, 0, 0, 0.3);
+}
+
+.contacts_content {
+    text-align: center;
 }
 
 .contacts h1 {
@@ -312,6 +344,10 @@ a {
     font-weight: 300;
     line-height: 120%;
     max-width: 30rem;
+}
+
+#email {
+    color: #64FFDA;
 }
 
 footer {
